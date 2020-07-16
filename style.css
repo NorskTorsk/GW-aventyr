@@ -1,0 +1,19 @@
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#background {
+	width: 100%; 
+	height: 100%; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	z-index: 0;
+}
+
+.stretch {
+	width:100%;
+	height:100%;
+}
+.stretch { min-width:100%; min-height:100%; width:auto; height:auto; }
